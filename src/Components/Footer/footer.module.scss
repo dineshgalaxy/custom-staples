@@ -1,0 +1,36 @@
+  @import '/src/Styles/utilities.scss';
+  .footerSection{
+    padding:30px 0 15px;
+    background-color: $secondary_main;
+    @media only screen and (max-width: 821px){
+      padding:50px 0 10px;
+    }
+  }
+ 
+  .footerMenu{
+    display:none;
+    & ul{
+      padding:0px;
+      & li{
+        padding:3px 0;
+        line-height:1.5
+      }
+    }
+    @media only screen and (min-width: 821px){
+      display: block;
+    }
+  }
+  .footer{
+    display: flex;
+    justify-content: space-between;
+  }
+  .mobilemenu{
+      & li{
+        & a{
+          font-size:$sm,
+        }
+      }
+  }
+
+
+

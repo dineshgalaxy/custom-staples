@@ -1,0 +1,45 @@
+@import "../../../Styles/utilities.scss";
+.mobileMenu {
+    display: block;
+    .menu {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        position: relative;
+        li {
+            padding: 8px 0px;
+            a {
+                display: flex;
+                align-items: flex-start;
+                span {
+                    padding-left: 10px;
+                }
+            }
+        }
+    }
+    @media only screen and (min-width: 821px) {
+        display: none;
+    }
+}
+.navMenu{
+    position:absolute;
+    padding:20px 16px 16px 16px;
+    z-index:2;
+    left: -100%;
+    top: 8.9rem ;
+    background-color:$white_color;
+    min-height: auto;
+    width: 100%;
+    transition:0.3s;
+   
+  }
+  .active{
+    left: 0;
+  }
+.humburger {
+    position: absolute;
+    top: 50px;
+    left: 0;
+}

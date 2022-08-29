@@ -1,0 +1,82 @@
+@import "../../../Styles/utilities.scss";
+.menubar {
+    border-bottom: 1px solid #e7e7e7;
+    display: none;
+    .menu {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        li {
+            padding: 13px 0px;
+            margin-left: 20px;
+           margin-right: 20px;
+            a {
+                display: flex;
+                align-items: flex-start;
+                span {
+                    padding-left: 10px;
+                }
+            }
+
+            .menuItem {
+                max-width: 920px;
+                background: #fff;
+                position: absolute;
+                left: 0;
+                right: 0;
+                transition: all .2s ease-in-out;
+                display: flex;
+                margin: 0px auto 0;
+                box-shadow: none;
+                min-height: auto;
+                border-radius: 0px;
+                z-index: 2;
+                top: 45px;
+                .sideBarMenu {
+                    width: 100%;
+                    padding: 0px;
+                    max-width: 230px;
+                    height: auto;
+                    background-color: #f3f3f3;
+                    li {
+                        padding: 6px 10px;
+                        white-space: normal;
+                        border-bottom: 1px solid #e4e4e4;
+                        &:hover {
+                            color: #c00;
+                            background-color: #fff;
+                        }
+                        a:hover {
+                            color: #c00;
+                        }
+                    }
+                }
+
+                .megaMenu {
+                    display: flex;
+                    gap: 30px;
+                    padding: 30px 20px;
+                    ul li {
+                        padding: 0px 10px;
+                    }
+                    a:hover {
+                        color: #c00;
+                    }
+                }
+            }
+        }
+    }
+    @media only screen and (min-width: 821px) {
+        display: block;
+    }
+}
+
+.clicked {
+    display: block;
+}
+//menu hover menu
+

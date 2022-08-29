@@ -1,0 +1,19 @@
+@import '/src/Styles/utilities.scss';
+.brandHeading{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    @media only screen and (min-width:460px){
+        flex-wrap: nowrap;
+    }
+}
+.brands{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+     @media only screen and (min-width:821px){
+        flex-wrap: nowrap;
+    }
+}
+

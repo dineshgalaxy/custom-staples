@@ -1,0 +1,52 @@
+@import '/src/Styles/utilities.scss';
+
+.heading{
+    text-align: center;
+    margin: 20px 0;
+}
+.product{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+   
+}
+.productItem{
+    border: 1px solid #e7e7e7;
+    text-align: center;
+    max-width: calc(100% - 6px);
+    flex:1 1 100%;
+    margin: 0px 0px 20px 0px;
+    a{
+        text-decoration: none;
+        text-transform: capitalize;
+        color: $red;
+       padding-bottom: 25px;
+       display: inline-block;
+
+    }
+   
+    @media only screen and (min-width:460px){
+        max-width: calc(50% - 6px);
+        flex:0 0 50%;
+    }
+    @media only screen and (min-width:821px){
+        max-width: calc(25% - 6px);
+        flex:0 0 100%; 
+    }
+}
+
+.shopProduct{
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+        .shoppingItem{
+            flex: 1 1 100%;
+            width: 50%;
+            margin-bottom: 8px;
+            @media only screen and (min-width:600px){
+                flex: 1 1 49%;
+            }
+        }
+}
+
+

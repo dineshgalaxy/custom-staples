@@ -1,0 +1,49 @@
+
+$red: #c00;
+$lightRed: #cc0000;
+$secondary_extraLight: #595959;
+$secondary_main: #444;
+$secondary_dark: #666;
+$white_color: #fff;
+$black_color: #000000;
+$blue_color:#2a78c6;
+$rgba_black: rgba(0, 0, 0, 0.15);
+
+//font size
+$h1: 50px;
+$h2: 45px;
+$h3: 40px;
+$h4: 30px;
+$h5: 20px;
+$h6: 18px;
+$xlg: 16px;
+$lg: 15px;
+$md: 14px;
+$sm: 13px;
+$xs: 12px;
+$xxs: 11px;
+
+.white {
+    color: $white_color;
+}
+.black {
+    color: $black_color;
+}
+.red {
+    color: $red;
+}
+.lightRed {
+    color: $lightRed;
+}
+.mainSecondary {
+    color: $secondary_main
+}
+.extraLightSecondary{
+    color: $secondary_extraLight
+}
+.darkSecondary {
+    color: $secondary_dark
+}
+.blueColor{
+    color: $blue_color
+}

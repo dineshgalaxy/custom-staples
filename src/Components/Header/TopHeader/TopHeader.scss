@@ -1,0 +1,29 @@
+@import '/src/Styles/utilities.scss';
+@import '/src/Fonts/fonts.scss';
+.topHead{
+    border-bottom: 1px solid #e7e7e7;
+}
+.topHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .select{
+       width: 40px;
+       font-size:$xs;
+       border-right:1px solid #e7e7e7;
+       padding:10px 0px 8px 0;
+       select{
+        border:0;
+        background-color: $white_color;
+        font-size:$xxs;
+        color: $secondary_dark;
+       }    
+    }
+}
+.chat{
+    button{
+        border-left: 1px solid #e7e7e7;
+        padding: 2px 0 2px 8px;
+        color: $blue_color;
+    }
+}

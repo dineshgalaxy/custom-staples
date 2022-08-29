@@ -1,0 +1,30 @@
+    @import '/src/Styles/utilities.scss';
+    .copyright{
+    p{
+        text-align: center;
+        padding-bottom: 10px;
+    }
+        padding: 34px 0;
+        & ul{
+            display: flex;
+            justify-content:center;
+            flex-wrap:wrap;
+            & li{
+                & + li:before {
+                    padding: 8px;
+                    color:white;
+                    content: '|' ;
+                    font-size: 13px;
+                }
+            }
+            @media only screen and (min-width: 821px){
+                flex-wrap:nowrap
+              }
+       
+        }
+       
+        }
+
+        .copyrightSection{
+            background-color: $secondary_main;
+        }

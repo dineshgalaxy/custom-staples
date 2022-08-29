@@ -1,0 +1,18 @@
+ //proximaNova 
+@font-face {
+    font-family: 'MotivaSans-Regular';
+    src: url('./motiva-sans-cufonfonts/MotivaSansRegular.woff.ttf');
+  }
+  @font-face {
+    font-family: 'MotivaSans-Medium';
+    src: url('./motiva-sans-cufonfonts/MotivaSansMedium.woff.ttf');
+  }
+
+//Proxima font family
+
+.MotivaRegular{
+  font-family: 'MotivaSans-Regular';
+}
+.MotivaMedium{
+  font-family: 'MotivaSans-Medium';
+}

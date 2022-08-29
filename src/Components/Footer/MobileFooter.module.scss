@@ -1,0 +1,27 @@
+@import "/src/Styles/utilities.scss";
+.mobileFooter {
+    display: block;
+    .menu {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        position: relative;
+        li {
+            padding: 8px 0px;
+            position: relative;
+            a {
+                display: flex;
+                align-items:center;
+                justify-content: space-between;
+                span {
+                    padding-left: 10px;
+                }
+            }
+        }
+    }
+    @media only screen and (min-width: 821px) {
+        display: none;
+    }
+}
