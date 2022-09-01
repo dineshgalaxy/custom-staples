@@ -86,6 +86,8 @@ const MiddleHeader = (props) => {
                             </li>
                             <li onMouseEnter={() => { setShow2(true) }}>
                                 <Button fontSize="xxs" startIcon={<Img src="cart.png" alt="cart.png"></Img>} fontFamily="MotivaRegular" btnText="" variant="text">
+                                <Text className={Styles.badge} textType="span" text="4"></Text>
+
                                     <Text className={Styles.icontext} textType="span" text="Cart"></Text>
                                 </Button>
                             </li>

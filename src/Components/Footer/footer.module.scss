@@ -2,7 +2,7 @@
   .footerSection{
     padding:30px 0 15px;
     background-color: $secondary_main;
-    @media only screen and (max-width: 821px){
+    @media only screen and (min-width: 821px){
       padding:50px 0 10px;
     }
   }
@@ -13,7 +13,7 @@
       padding:0px;
       & li{
         padding:3px 0;
-        line-height:1.5
+        line-height:normal
       }
     }
     @media only screen and (min-width: 821px){

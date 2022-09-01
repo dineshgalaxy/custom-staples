@@ -16,7 +16,7 @@ const Footer = () => {
                 footerItem.map((value) => {
                   return (
                     <div item xs={12} sm={4} md={3} mb="15px">
-                      <Heading fontWeight="700" headingType="h4" fontSize="lg" headingText={value.heading} color="white"> </Heading>
+                      <Heading fontWeight="700" headingType="h4" fontSize="xl" headingText={value.heading} color="white"> </Heading>
                       <ul>
                         <li>
                           <Links fontSize="sm" color="white" textDecoration={false} href="#" linkText={value.links_1}> </Links>
@@ -37,7 +37,7 @@ const Footer = () => {
                 })
               }
               <div item xs={12} sm={4} md={3} mb="15px">
-                <Heading fontWeight="700" headingType="h4" fontSize="lg" headingText=" New Customer" color="white"> </Heading>
+                <Heading fontWeight="700" headingType="h4" fontSize="xl" headingText=" New Customer" color="white"> </Heading>
                 <ul>
 
                   <li>
@@ -53,7 +53,8 @@ const Footer = () => {
 "> </Links>                      </li>
 
                 </ul>
-                <Heading fontWeight="700" headingType="h4" fontSize="lg" headingText=" Join the Staples Team" color="white"> </Heading>
+                <div style={{marginTop:'18px',marginBottom:'15px'}}> 
+                <Heading fontWeight="700" headingType="h4" fontSize="xl" headingText=" Join the Staples Team" color="white"> </Heading>
                 <ul>
 
                   <li>
@@ -64,6 +65,7 @@ const Footer = () => {
 
 
                 </ul>
+       </div>
               </div>
 
 
@@ -74,7 +76,7 @@ const Footer = () => {
 
 
           </div>
-          <MobileFooter/>
+          <MobileFooter />
         </div>
 
       </div>
